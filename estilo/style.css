@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap');
 
 li,
 a,
@@ -108,7 +109,7 @@ body {
 
 footer {
     display: flex;
-
+    justify-content: space-around;
     color: white;
     background-color: #343a40;
     position: static;
@@ -117,4 +118,43 @@ footer {
     bottom: 0;
     list-style: none;
     font-family: 'Montserrat', sans-serif;
+}
+
+.iconos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+}
+
+
+.icon {
+    margin: 10px;
+    padding: 5px;
+    font-weight: 100;
+    font-size: 50px;
+    height: 50px;
+
+}
+
+.log-titulo {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+label {
+    margin-bottom: 20px;
+}
+
+#asunto {
+    width: 300px;
 }
