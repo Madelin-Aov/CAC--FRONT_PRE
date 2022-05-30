@@ -32,18 +32,19 @@
         <div class="form-contenedor">
             <section class="formulario">
                 <form id="form-email" action="">
-                    <label> Nombre completo:
-                        <input class="entrada" type="text" name="nombre" id="nombre">
-                    </label>
-                    <label> Mail:
-                        <input class="entrada" type="text" name="mail" id="mail">
+                    <label> Asunto:
+                        <input placeholder="Tu asunto" class="entrada" type="text" name="asunto" id="asunto" required>
                     </label>
                     <label> Mensaje:
-                        <textarea class="entrada entrada-text-area" name="asunto" id="asunto"> </textarea>
+                        <textarea rows="100" cols="50" placeholder="Dejame tu mensaje..." name="mensaje" id="mensaje"
+                            class="entrada entrada-text-area" required></textarea>
+
                     </label>
 
                     <label><button type="submit" style="width: 200px; margin-left: 40%;">Ingresar</button>
                     </label>
+
+
 
                 </form>
             </section>
